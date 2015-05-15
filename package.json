@@ -1,0 +1,21 @@
+{
+  "name": "greet",
+  "version": "0.0.0",
+  "description": "A Simple and Navie greeter",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "hello-world"
+  ],
+  "author": "lx7575000 <liu_narcisus@163.com> (https://github.com/lx7575000)",
+  "license": "MIT",
+  "bin": {
+    "greet": "./bin/greet.js"
+  },
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "mocha": "^2.2.4"
+  }
+}
